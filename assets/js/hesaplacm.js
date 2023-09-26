@@ -229,7 +229,7 @@
             const birim1 = ifadeParcalari[1].toLowerCase(); // İlk birimi alın
             const birim2 = ifadeParcalari[2].toLowerCase(); // İkinci birimi alın
             const sonucDegeri = hesaplaBirimDonusumu(ifade);
-            sonuc.textContent = `Sonuç:  ${sayi} ${birim1}'den dönüştürüğümüzde ${sonucDegeri} ${birim2} olur.`;
+            sonuc.textContent = `Sonuç:  ${sayi} ${birim1} den dönüştürüğümüzde ${sonucDegeri} ${birim2}`;
             sonucDiv.style.display = 'block';
           const a=window.speechSynthesis;
             const b=new SpeechSynthesisUtterance(`Sonuç:  ${sayi} ${birim1} den dönüştürüğümüzde ${sonucDegeri} ${birim2} olur`);

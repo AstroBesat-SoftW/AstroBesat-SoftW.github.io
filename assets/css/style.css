@@ -38,7 +38,6 @@ body {
   overflow-x: hidden; }
 
 
-
 /* bu alt ses ile ilgili */
 #algilananMetincm {
     width: 90%;
@@ -48,6 +47,11 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+
+
+
+
 
 
 .calculator {
